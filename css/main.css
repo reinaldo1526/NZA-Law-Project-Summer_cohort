@@ -309,35 +309,35 @@ body {
 
 /*Matt End 310*/
 /*Juny Start 311*/
+.line{
+    text-align: center;
+    font-size:10px ;
+    margin-left: 5em;
+    margin-right: 5em;        
+    border-top: 2px solid black;
 
+}
 
+.bottom-links {
+    display: inline;
+    font-size: small;
+}
 
+.bottom-links li {
+    display: inline;
+}
 
+.line a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.last{
+    font-size: small;
+    text-align: center;
+} 
 
 
 
