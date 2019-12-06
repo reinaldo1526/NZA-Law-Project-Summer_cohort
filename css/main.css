@@ -3,73 +3,72 @@ body {
 }
 .whitebackground {
     background-color: white;
-    margin: 0px auto;
-    /* width: 80%; */
-    height: 90%;
 }
 /*Geo Start 10*/
 
 
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color:white;
+  overflow: auto;
+  border-top: 2px solid black;
+  border-bottom:2px solid black ;
+}
+
+.navbar a {
+  float: left;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  width: 18%; /* Five links of equal widths */
+  text-align:center;
+  border-right: 1px solid;
+  border-color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .contact{
+    float: left;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  width: 18%; /* Five links of equal widths */
+  text-align:center;
+  border-right:none;
+  
+  }
+}
+
+a.contact{
+  border-right:none;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.borders{
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 1px;
+  bottom: 5px;
+  border: 5px solid #ffea00;
+  border-color: red;
+}
+.img{
+  /* border: 5; */
+}
 
 
 
@@ -109,56 +108,55 @@ body {
 
 /*Geo End 110*/
 /*Santi Start 111*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.d-flex .col-md-4 {
+    /* height: 100%; */
+}
 
+.card {
+    border-radius: 0px;
+    border:0px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+    max-height: 80%;
+}
 
+.card ul{
+    list-style: none;
+}
 
+.card .action_header {
+    position: absolute;
+    top: 2.5%;
+    right: 3%;
+}
 
+.card .card-footer {
+    padding:0px;    
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+}
 
+.card-header {
+    background-color: #882D2D !important;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.card-body{
+    height: 20%;
+    background-color: #882D2D;
+    overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.itemized{
+    text-align: left;
+    transform: translate(-3em, 0em);
+    
+}
 
 
 
@@ -335,35 +333,35 @@ body {
 
 /*Matt End 310*/
 /*Juny Start 311*/
+.line{
+    text-align: center;
+    font-size:10px ;
+    margin-left: 5em;
+    margin-right: 5em;        
+    border-top: 2px solid black;
 
+}
 
+.bottom-links {
+    display: inline;
+    font-size: small;
+}
 
+.bottom-links li {
+    display: inline;
+}
 
+.line a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.last{
+    font-size: small;
+    text-align: center;
+} 
 
 
 
