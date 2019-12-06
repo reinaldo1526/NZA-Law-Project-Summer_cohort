@@ -117,6 +117,8 @@ div.borders{
     border:0px;
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
     max-height: 80%;
+    overflow: scroll;
+    background-color: #882D2D;
 }
 
 .card ul{
@@ -146,9 +148,8 @@ div.borders{
 }
 
 .card-body{
-    height: 20%;
-    background-color: #882D2D;
-    overflow: hidden;
+    /* height: 20%; */
+    /* overflow: hidden; */
 }
 
 .itemized{
