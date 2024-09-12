@@ -19,3 +19,12 @@ Attorney's Image : http://nzalaw.com/images/sub-01-attorneys.jpg
 Staff Image : http://nzalaw.com/images/sub-01-staff.jpg
 Reputation Image: http://nzalaw.com/images/sub-01-reputation.jpg
 History: http://nzalaw.com/images/sub-01-history.jpg
+
+Bo- I made the wooden background and the white div. I assisted with the other sections as needed. Once all the parts were together, edited some CSS to make the whole thing flow a bit better.
+
+Geo- I made the logo, and the navbar.
+
+Juny- I made the footer.
+
+
+
